@@ -1,0 +1,25 @@
+# ISA
+
+## Registers
+0: X (GP)
+1: Y (GP)
+2: A (ACC)
+3: I (PR: IN) ?
+
+## Instructions
+0x0: LDX (addr)
+0x1: LDX (reg)
+0x2: STX (addr)
+0x3: LDY (addr)
+0x4: LDY (reg)
+0x5: STY (addr)
+0x6: LDA (addr)
+0x7: LDA (reg)
+0x8: STA (addr)
+0x9: ?
+0xA: ADD (reg)
+0xB: AND (reg)
+0xC: XOR (reg)
+0xD: IN (reg) ?
+0xE: OUT (reg)
+0xF: JNZ (reg)
