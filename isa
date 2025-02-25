@@ -3,8 +3,7 @@
 ## Registers
 0: X (GP)
 1: Y (GP)
-2: A (ACC)
-3: I (PR: IN) ?
+2: I (PR: IN)
 
 ## Instructions
 0x0: LDX (addr)
@@ -20,6 +19,6 @@
 0xA: ADD (reg)
 0xB: AND (reg)
 0xC: XOR (reg)
-0xD: IN (reg) ?
+0xD: ?
 0xE: OUT (reg)
 0xF: JNZ (reg)
